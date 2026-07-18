@@ -9,8 +9,8 @@ jobs:
   Greetings:
     runs-on: ubuntu-latest
     steps:
-     - uses: actions/checkout@v4
-     - name: Greet
-      run: echo "Welcome 7amada from 7amada"
-      shell: bash
+      - uses: actions/checkout@v4
+      - name: Greet
+        run: echo "Welcome 7amada from 7amada"
+        shell: bash
       
